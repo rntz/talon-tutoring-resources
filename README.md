@@ -1,5 +1,7 @@
 # Talon skills smorgasboard
 
+This is a concise guide to the skills and command-sets you may wish to practice to get up and running as a Talon newbie.
+
 **Core skills**: the keyboard, the mouse, repeater commands, text editing, dictation, window & app management, file system navigation, using the terminal, web browsing.
 
 **Meta skills**: chaining commands, debugging, finding commands, talon scripting.

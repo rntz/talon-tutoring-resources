@@ -6,11 +6,11 @@
 
 **Common issues**: speech.timeout too short/long, voice strain, difficulty avoiding the mouse.
 
-## Core skills
+# Core skills
 
 See also [chaosparrot's talon practice website](https://chaosparrot.github.io/talon_practice/).
 
-### The keyboard
+## The keyboard
 
 This is defined in [misc/keys.talon](https://github.com/knausj85/knausj_talon/blob/main/misc/keys.talon) and [code/keys.py](https://github.com/knausj85/knausj_talon/blob/main/code/keys.py) but keys.py is pretty opaque to a talon newbie. You should memorize the [alphabet](https://chaosparrot.github.io/talon_practice/lessons/alphabet.html) and the other keys on the keyboard (enter, control, escape, etc).
 
@@ -18,11 +18,11 @@ This is defined in [misc/keys.talon](https://github.com/knausj85/knausj_talon/bl
 
 - `(ship | uppercase) <letter>+ [lowercase|sunk]`: Inserts some uppercase letters, eg. `ship quench each drum` -> "QED". `sunk|lowercase` at the end lets you insert some lowercase letters afterward.
 
-### The mouse
+## The mouse
 
 I don't discuss eyetracker commands here.
 
-#### [misc/mouse.talon](https://github.com/knausj85/knausj_talon/blob/main/misc/mouse.talon)
+### [misc/mouse.talon](https://github.com/knausj85/knausj_talon/blob/main/misc/mouse.talon)
 
 - `touch`, `righty`, `mid click`: Press the left, right, or middle mouse buttons.
 - `<modifiers> (touch|righty)`: Clicks with modifiers, eg `shift touch`.
@@ -30,9 +30,9 @@ I don't discuss eyetracker commands here.
 - `[left|right] drag`: Clicks and holds mouse button. Do `drag end | end drag` to end (`touch` also works).
 - `wheel [tiny] (down|up)`: Scrolls the mouse wheel up/down.
 
-### Repeater commands
+## Repeater commands
 
-#### [misc/repeater.talon](https://github.com/knausj85/knausj_talon/blob/main/misc/repeater.talon)
+### [misc/repeater.talon](https://github.com/knausj85/knausj_talon/blob/main/misc/repeater.talon)
 
 - `second | third | fourth | ... | ninety ninth`: Repeat previous command several times. Eg. `go up third` will press up-arrow three times.
 - `<number> times`: likewise, eg. `go up three times`.
@@ -41,9 +41,9 @@ I don't discuss eyetracker commands here.
 
 NB. `repeat that two [times]` is exactly the same as `third` or `three times`.
 
-### Text editing
+## Text editing
 
-#### [formatters.talon](https://github.com/knausj85/knausj_talon/blob/main/misc/formatters.talon)
+### [formatters.talon](https://github.com/knausj85/knausj_talon/blob/main/misc/formatters.talon)
 
 - `say <phrase>`: Emits text, punctuated & capitalized.
 - `phrase <phrase>`: Emits text, uncapitalized, and no punctuation recognized.
@@ -57,14 +57,14 @@ These all have `over` variants if you want to chain some commands *after* the ph
 - `<formatter> that`: Reformats the selection using the given formatter.
 
 
-#### [standard.talon](https://github.com/knausj85/knausj_talon/blob/000015ed1bd4cb1109d7d6ddaaa4146821821d70/misc/standard.talon)
+### [standard.talon](https://github.com/knausj85/knausj_talon/blob/000015ed1bd4cb1109d7d6ddaaa4146821821d70/misc/standard.talon)
 
 - `(copy|cut|paste|undo|redo) that`: Standard copy/cut/paste/undo/redo commands.
 - `file save`: Saves file.
 - `slap`: Inserts an empty line below cursor, like going to end of line and hitting `enter`.
 
 
-#### [generic_editor.talon](https://github.com/knausj85/knausj_talon/blob/main/text/generic_editor.talon)
+### [generic_editor.talon](https://github.com/knausj85/knausj_talon/blob/main/text/generic_editor.talon)
 
 - `(go|select|clear|copy) word [left|right]`: moves, selects, deletes, or copies a single word. I suggest binding single word synonyms for `go word (left|right)` (I use `draw|step`) and `clear word (left|right)`.
 
@@ -81,7 +81,7 @@ These all have `over` variants if you want to chain some commands *after* the ph
 - `paste all`: Replace entire text area with results of pasting clipboard.
 
 
-#### [line_commands.talon](https://github.com/knausj85/knausj_talon/blob/main/text/line_commands.talon)
+### [line_commands.talon](https://github.com/knausj85/knausj_talon/blob/main/text/line_commands.talon)
 
 - `go <n> [end]`: Go to line `n`.
 - `comment <n> [until <n2>]`: Comment lines `n` through `n2` inclusive.
@@ -93,7 +93,7 @@ These all have `over` variants if you want to chain some commands *after* the ph
 There's more in each of these files; I highly suggest reading them if you want to get better. See also the entire [text](https://github.com/knausj85/knausj_talon/tree/main/text) directory.
 
 
-## Meta skills
+# Meta skills
 
 
-## Common issues
+# Common issues

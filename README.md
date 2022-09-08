@@ -92,8 +92,32 @@ These all have `over` variants if you want to chain some commands *after* the ph
 
 There's more in each of these files; I highly suggest reading them if you want to get better. See also the entire [text](https://github.com/knausj85/knausj_talon/tree/main/text) directory.
 
+## Dictation
+
+## Window & application management
+
+## File system navigation
+
+## Using the terminal
+
+## Web browsing
+
 
 # Meta skills
 
+## Chaining commands
+
+## Debugging
+
+## Finding commands
+
+## Talon scripting
+
 
 # Common issues
+
+## Speech.timeout too short/long
+
+## Voice strain
+
+## Difficulty avoiding the mouse

@@ -1,10 +1,10 @@
 # Talon skills smorgasboard
 
-- **Core skills**: the keyboard, the mouse, repeater commands, text editing, dictation, window & app management, file system navigation, using the terminal, web browsing.
+**Core skills**: the keyboard, the mouse, repeater commands, text editing, dictation, window & app management, file system navigation, using the terminal, web browsing.
 
-- **Meta skills**: chaining commands, debugging, finding commands, talon scripting.
+**Meta skills**: chaining commands, debugging, finding commands, talon scripting.
 
-- **Common issues**: speech.timeout too short/long, voice strain, difficulty avoiding the mouse.
+**Common issues**: speech.timeout too short/long, voice strain, difficulty avoiding the mouse.
 
 ## Core skills
 
@@ -92,6 +92,8 @@ These all have `over` variants if you want to chain some commands *after* the ph
 
 There's more in each of these files; I highly suggest reading them if you want to get better. See also the entire [text](https://github.com/knausj85/knausj_talon/tree/main/text) directory.
 
-## Common issues
+
+## Meta skills
 
-# Advice
+
+## Common issues
